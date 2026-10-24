@@ -3,25 +3,120 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nubro — تطبيق مراسلة مشفّر</title>
-<meta name="description" content="Nubro تطبيق مراسلة لأندرويد بتشفير طرف لطرف وتسجيل دخول بالبريد أو بحساب جوجل.">
+<title>Nubro — تطبيق مراسلة مشفّر | Encrypted messaging</title>
+<meta name="description" content="Nubro تطبيق مراسلة لأندرويد بتشفير طرف لطرف وتسجيل دخول بالبريد أو بحساب جوجل. Nubro is an Android messaging app with end-to-end encryption.">
+<meta name="theme-color" content="#5b3df5">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nubro">
+<meta property="og:description" content="Nubro is an Android messaging app with end-to-end encryption. Sign in with email or a Google account.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&display=swap">
 <link rel="stylesheet" href="style.css">
+<script>
+(function(){var d=document.documentElement,l;try{l=localStorage.getItem('lg')}catch(e){}
+if(l!=='ar'&&l!=='en')l=(navigator.language||'ar').slice(0,2)==='ar'?'ar':'en';
+function set(x){d.lang=x;d.dir=x==='ar'?'rtl':'ltr'}set(l);
+addEventListener('DOMContentLoaded',function(){document.getElementById('lg').onclick=function(){var x=d.lang==='ar'?'en':'ar';set(x);try{localStorage.setItem('lg',x)}catch(e){}}})})();
+</script>
 </head>
-<body>
-<main>
-<p class="wordmark">Nubro</p>
-<p class="lead">تطبيق مراسلة لأندرويد. رسائلك مشفّرة من طرف لطرف، وتقدر تدخل بالبريد وكلمة السر أو بحساب جوجل.</p>
-<nav class="docs" aria-label="الوثائق">
-<a href="privacy.html">سياسة الخصوصية <span>Privacy Policy</span></a>
-<a href="terms.html">شروط الاستخدام <span>Terms of Service</span></a>
+<body class="home">
+<header class="top"><div class="wrap">
+<a class="brand" href="./"><i class="mark"></i>Nubro</a>
+<nav aria-label="Pages">
+<a href="privacy.html"><span lang="ar">الخصوصية</span><span lang="en">Privacy</span></a>
+<a href="terms.html"><span lang="ar">الشروط</span><span lang="en">Terms</span></a>
+<button class="pill" id="lg" type="button"><span lang="ar">English</span><span lang="en">العربية</span></button>
 </nav>
-<footer>
-<p>Nubro is an Android messaging app with end-to-end encryption. Sign in with email or a Google account.</p>
-<p>للتواصل: <a href="mailto:ahmed2088qwe@gmail.com">ahmed2088qwe@gmail.com</a></p>
-</footer>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+<div>
+<h1 lang="ar">مراسلة مشفّرة من طرف لطرف، بتجربة سلسة.</h1>
+<h1 lang="en">Private messaging that feels effortless.</h1>
+<p class="lead" lang="ar">Nubro تطبيق مراسلة لأندرويد. رسائلك مشفّرة من طرف لطرف بـ Signal Protocol، وتدخل بالبريد وكلمة السر أو بحساب جوجل.</p>
+<p class="lead" lang="en">Nubro is an Android messaging app. Your messages are end-to-end encrypted with the Signal Protocol, and you can sign in with email or a Google account.</p>
+<div class="cta">
+<a class="btn" href="mailto:ahmed2088qwe@gmail.com"><span lang="ar">تواصل معنا</span><span lang="en">Contact us</span></a>
+<a class="btn ghost" href="privacy.html"><span lang="ar">اقرأ سياسة الخصوصية</span><span lang="en">Read the Privacy Policy</span></a>
+</div>
+</div>
+
+<div class="wire">
+<div class="row">
+<span class="cap"><span lang="ar">على جهازك</span><span lang="en">On your phone</span></span>
+<p class="bub out"><span lang="ar">مساء الخير، وصلت؟</span><span lang="en">Hey, did you get there?</span></p>
+</div>
+<div class="row">
+<span class="cap"><span lang="ar">ما يمرّ عبر الخادم</span><span lang="en">What travels through the server</span></span>
+<div class="cipher"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><b>k7Q·x2Zp·9vLm·Rt4w·Hs8d·Qe3n</b></div>
+</div>
+<div class="row">
+<span class="cap"><span lang="ar">على جهاز من تراسله</span><span lang="en">On their phone</span></span>
+<p class="bub in"><span lang="ar">مساء الخير، وصلت؟</span><span lang="en">Hey, did you get there?</span></p>
+</div>
+</div>
+</div></section>
+
+<section class="sec"><div class="wrap">
+<h2 class="t" lang="ar">أمان تتحكم فيه</h2>
+<h2 class="t" lang="en">Security you control</h2>
+<p class="sub" lang="ar">التشفير والتحقق وربط الأجهزة مفعّلة لحماية حسابك، لا لتعقيد استخدامك.</p>
+<p class="sub" lang="en">Encryption, verification and device linking are there to protect your account, not to slow you down.</p>
+<div class="feat">
+<div class="panel">
+<h3 lang="ar">محميّ بالتصميم</h3>
+<h3 lang="en">Protected by design</h3>
+<p lang="ar">الرسائل مشفّرة بـ Signal Protocol، ولا نملك مفاتيح فك تشفيرها.</p>
+<p lang="en">Messages use the Signal Protocol, and we do not hold the keys to decrypt them.</p>
+<p lang="ar">تحقق بخطوتين وربط للأجهزة الموثوقة يحميان دخولك.</p>
+<p lang="en">Two-step verification and trusted-device linking protect your sign-in.</p>
+</div>
+<div class="rows">
+<div>
+<h3 lang="ar">رسائل وقصص ووسائط</h3><h3 lang="en">Messages, stories and media</h3>
+<p lang="ar">أرسل الصور والفيديوهات والرسائل الصوتية، وشارك قصصًا مع من تحب.</p>
+<p lang="en">Send photos, videos and voice notes, and share stories.</p>
+</div>
+<div>
+<h3 lang="ar">مساعد ذكاء اصطناعي اختياري</h3><h3 lang="en">An optional AI assistant</h3>
+<p lang="ar">عند استخدامه يُرسَل نص طلبك إلى مزوّد النموذج لتوليد الرد.</p>
+<p lang="en">When you use it, the text of your request is sent to the model provider to generate a reply.</p>
+</div>
+<div>
+<h3 lang="ar">دخول سهل</h3><h3 lang="en">Easy sign-in</h3>
+<p lang="ar">بالبريد وكلمة السر أو بحساب جوجل. نحصل من جوجل على بريدك واسمك وصورتك العامة فقط.</p>
+<p lang="en">Use email and password or a Google account. From Google we receive only your email, name and public profile picture.</p>
+</div>
+</div>
+</div>
+</div></section>
+
+<section class="sec"><div class="wrap">
+<h2 class="t" lang="ar">ما نحتفظ به، وما لا نفعله</h2>
+<h2 class="t" lang="en">What we keep, and what we don’t do</h2>
+<dl class="facts">
+<div><dt lang="ar">محتوى الرسائل</dt><dt lang="en">Message content</dt>
+<dd lang="ar">مشفّر من طرف لطرف، ولا نملك مفاتيحه. قد يحتفظ الخادم بمحتوى مشفّر وببيانات وصفية لازمة لتسليم الرسائل.</dd>
+<dd lang="en">End-to-end encrypted, and we do not hold the keys. The server may keep encrypted content and the metadata needed to deliver messages.</dd></div>
+<div><dt lang="ar">بيانات الحساب</dt><dt lang="en">Account data</dt>
+<dd lang="ar">البريد الإلكتروني واسم المستخدم وصورة الملف الشخصي. كلمة السر تُدار عبر Supabase Auth.</dd>
+<dd lang="en">Email address, username and profile picture. Your password is managed by Supabase Auth.</dd></div>
+<div><dt lang="ar">الإعلانات</dt><dt lang="en">Advertising</dt>
+<dd lang="ar">لا نستخدم بياناتك للإعلانات ولا نبيعها.</dd>
+<dd lang="en">We do not use your data for advertising, and we do not sell it.</dd></div>
+</dl>
+<a class="btn ghost" href="privacy.html"><span lang="ar">سياسة الخصوصية كاملة</span><span lang="en">Full Privacy Policy</span></a>
+</div></section>
 </main>
+
+<footer class="foot"><div class="wrap">
+<p lang="ar">للتواصل: <a href="mailto:ahmed2088qwe@gmail.com">ahmed2088qwe@gmail.com</a></p>
+<p lang="en">Contact: <a href="mailto:ahmed2088qwe@gmail.com">ahmed2088qwe@gmail.com</a></p>
+<p><a href="privacy.html"><span lang="ar">سياسة الخصوصية</span><span lang="en">Privacy Policy</span></a> &nbsp;·&nbsp; <a href="terms.html"><span lang="ar">شروط الاستخدام</span><span lang="en">Terms of Service</span></a></p>
+<p lang="en">Nubro is an Android messaging app with end-to-end encryption. Sign in with email or a Google account.</p>
+<p lang="ar">Nubro تطبيق مراسلة لأندرويد بتشفير طرف لطرف.</p>
+</div></footer>
 </body>
 </html>
